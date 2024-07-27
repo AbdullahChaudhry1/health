@@ -43,7 +43,7 @@ def weight_status(age: int, weight: float, gender: str) -> tuple[str, str, int]:
 
 
 # Streamlit app
-st.title("Weight Status and Diet Plan")
+st.title("Abdullah Weight Status and Diet Plan")
 
 # User input
 age = st.number_input("Enter your age:", min_value=1, max_value=150, value=25)
